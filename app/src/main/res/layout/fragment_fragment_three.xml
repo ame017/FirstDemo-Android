@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentThree">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.example.apple.BigDemo.AMETextView
+        android:id="@+id/ameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126px"
+        android:text="跟handler自身实现的定时器相比，Timer可以做一些复杂的处理，例如，需要对有大量对象的list进行排序，在TimerTask中执行不会阻塞子线程，常常与handler结合使用，在处理完复杂耗时的操作后，通过handler来更新UI界面。
+
+**特别吐槽：对于部分手机，如果你在TimerTask直接更新了UI线程是不会报错的，而且运行正常，但是一定注意，更新UI一定要在主线程中执行，否则排查错误的时候你懂得。而且这个东西特别耗电，特别耗电，特别耗电，重要的事情说三遍，一定在不使用的时候关闭，慎用。 "
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="StartAnimation"/>
+
+</LinearLayout>
